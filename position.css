@@ -1,0 +1,49 @@
+* { padding: 0; margin: 0; }
+
+html, body {
+    height: 100%;
+    background-color: black;
+}
+
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: stretch;
+    flex-direction: row;
+    min-height: 100%;
+}
+.container > * {
+    flex: 1 100%;
+}
+    
+
+.header {
+    background: lightgreen;
+    text-align: center;
+
+
+}
+
+.holy1 {
+    background: gold;
+    flex-basis: 20%;
+
+}
+
+.holy2 {
+    background: tomato;
+    
+    
+}
+
+.holy3 {
+    background: teal;
+    flex-basis: 20%;
+  
+}
+
+.foot {
+    background: rebeccapurple;
+    text-align: center;
+}

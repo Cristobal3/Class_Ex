@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  #wrap {
+    min-height: 100%;
+  }
+  .side {
+      background-color: brown;
+      width: 30%;
+      display: inline-block;
+  }
+  
+  .main {
+    
+    padding-bottom: auto;
+    background-color: aqua;
+    width: 69.5%;
+    display: inline-block;
+    /* must be same height as the footer */
+  }
+  
+  .footer {
+    position: relative;
+    margin-top: -20px;
+    /* negative value of footer height */
+    height: 40px;
+    clear: both;
+    background-color:gray;
+
+  }
+
+  .adver {
+    display: inline-block;
+    width: auto;
+    border: 10px solid grey;
+  }
+
+ 
